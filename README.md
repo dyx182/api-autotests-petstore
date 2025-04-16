@@ -1,15 +1,62 @@
-<h1>Testing API with Rest Assured Java</h1>
-<h3>In this project, the test object chosen was Swagger PetStore, which is often used for training. In the Pet section, positive and negative checks were carried out according to the documentation. The API is tested using the REST Assured framework integrated with JUNIT5 as the testing framework for verification purposes.</h3>
-<br>
-<h3>The test classes are run in order:</h3>
-<h3>- AddPet</h3>
-<h3>- UpdatePet</h3>
-<h3>- FindPet</h3>
-<h3>- DeletePet</h3>
-<br> 
-<h3>Technology:</h3>
-<h3>- Tool: REST Assured</h3>
-<h3>- IDE: Intellij</h3>
-<h3>- Build tool: Maven</h3>
-<h3>- Test_Runner: Junit5</h3>
-<h3>- Language: Java</h3>
+# Тестирование API PetStore с использованием RestAssured (Java)
+
+Этот проект представляет собой автоматизированное тестирование API для Swagger PetStore — демо-сервиса, часто используемого для обучения QA-инженеров.
+
+## Технологический стек
+
+- **Java 11+**
+- **REST Assured** - Отправка HTTP запросов и валидации ответа
+- **Maven** - Сборка
+- **JUnit 5** - Запуск тестов
+- **Lombok** - Сокращение шблонного кода
+
+## В проекте реализованы позитивные и негативные тесты для эндпоинтов раздела Pet
+
+- Добавление питомца (AddPet)
+- Обновление данных (UpdatePet)
+- Поиск по ID (FindPet)
+- Удаление (DeletePet)
+
+## Проверки включают в себя
+
+- Валидацию кодов ответа (200, 404, 400)
+- Логирование ответа
+- Проверку данных в ответе
+
+## Установка и запуск
+
+1. Клонировать репозиторий:
+git clone [ваш_ссылка_на_репозиторий]
+2. Запустить тесты через Maven:
+mvn test
+
+# API Testing for PetStore using RestAssured (Java)
+
+This project demonstrates automated API testing for Swagger PetStore, a demo service commonly used for QA training.
+
+## Tech stack:
+
+- Language: Java 11+
+- Framework: REST Assured (HTTP requests/assertions)
+- Libraries: JUnit 5 (test runner)
+- Lombok (POJO simplification)
+- Build tool: Maven
+
+## Key features:
+
+- Add a new pet (AddPet),
+- Update pet data (UpdatePet),
+- Find pet by ID (FindPet),
+- Delete pet (DeletePet).
+
+## Validations include:
+
+- HTTP status codes (200, 404, 400)
+- Response data checks (e.g., pet name correctness)
+
+## How to run:
+
+1. Clone the repo:
+git clone [your_repo_link]
+2. Execute tests via Maven:
+mvn test
