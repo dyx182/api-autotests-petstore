@@ -23,13 +23,6 @@
 - Логирование ответа
 - Проверку данных в ответе
 
-## Установка и запуск
-
-1. Клонировать репозиторий:
-git clone [ваш_ссылка_на_репозиторий]
-2. Запустить тесты через Maven:
-mvn test
-
 # API Testing for PetStore using RestAssured (Java)
 
 This project demonstrates automated API testing for Swagger PetStore, a demo service commonly used for QA training.
@@ -53,10 +46,3 @@ This project demonstrates automated API testing for Swagger PetStore, a demo ser
 
 - HTTP status codes (200, 404, 400)
 - Response data checks (e.g., pet name correctness)
-
-## How to run:
-
-1. Clone the repo:
-git clone [your_repo_link]
-2. Execute tests via Maven:
-mvn test
